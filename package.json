@@ -1,0 +1,15 @@
+{
+  "name": "claims",
+  "version": "0.1.0",
+  "description": "Minimal proof-of-existence on Ethereum",
+  "main": "truffle-config.js",
+  "scripts": {
+    "deploy": "truffle deploy --network main"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.0.1"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.0.33"
+  }
+}
